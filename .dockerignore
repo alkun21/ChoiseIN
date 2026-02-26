@@ -1,0 +1,25 @@
+# Сборка Maven — не копируем (соберём в образе)
+target/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE и системные файлы
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Документация (не нужна в образе)
+*.md
+
+# Логи
+logs/
+*.log
+
+# Временные файлы и кэш
+*.tmp
+*.bak
+*.cache
